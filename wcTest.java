@@ -1,6 +1,8 @@
 import java.util.Arrays;
 import java.util.Collection;
 
+import org.junit.experimental.categories.Category;
+
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
@@ -11,6 +13,9 @@ import org.junit.After;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
 
+
+// public interface FastTests { /* category marker */ }
+// public interface SlowTests { /* category marker */ }
 
 
 
